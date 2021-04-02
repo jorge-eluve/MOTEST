@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "zemoga-uitest": {
+    "MO-Test": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/zemoga-uitest",
+            "outputPath": "dist/MO-Test",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,18 +68,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "zemoga-uitest:build"
+            "browserTarget": "MO-Test:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "zemoga-uitest:build:production"
+              "browserTarget": "MO-Test:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "zemoga-uitest:build"
+            "browserTarget": "MO-Test:build"
           }
         },
         "test": {
@@ -113,18 +113,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "zemoga-uitest:serve"
+            "devServerTarget": "MO-Test:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "zemoga-uitest:serve:production"
+              "devServerTarget": "MO-Test:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "zemoga-uitest",
+  "defaultProject": "MO-Test",
   "cli": {
     "analytics": false
   }

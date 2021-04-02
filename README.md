@@ -1,6 +1,8 @@
-# ZemogaUitest
+# MO TECH TEST , ANY ASK TO, jorgereita.alc@gmail.com
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+
+Also i use eslint for code, translate service i-18n for languages, NGRX just to save the states, interceptors for endpoints.
 
 ## Development server
 
