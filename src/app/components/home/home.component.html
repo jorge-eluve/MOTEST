@@ -11,7 +11,6 @@
     </div>
     <div>
       <div class="mo-card data-card">
-
         <form [formGroup]="linkForm" class="form-size">
           <div class="input-container">
             <label position="stacked" class="has-padding-b-1">{{"HOME.URL_TITLE" | translate }}</label>
@@ -26,7 +25,6 @@
               [ngClass]="linkForm.valid?'mo-form-button active':'mo-form-button disabled'" (click)="addLink()">
               {{"HOME.BUTTON_ADD" | translate }} </button>
           </div>
-
         </form>
       </div>
       <div class="mo-card card-link" *ngFor="let item of linksList">
@@ -37,3 +35,4 @@
     </div>
   </main>
 </body>
+<div style="color: white;">TEST FOR THE CONTINIUS INTEGRATION</div>
